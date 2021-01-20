@@ -25,6 +25,7 @@
 <b> COMANDO PARA VERIFICAR SE O DRIVE EXISTE </b><br>
 
 <code>from PyQt5.QtSql import QSqlDatabase</code><br>
+<code>from PyQt5 import QtCore</code><br>
 <code>print(list(map(str, QSqlDatabase.drivers())))</code><br>
 <code>print(QtCore.QCoreApplication.libraryPaths())</code><br>
 <br>
