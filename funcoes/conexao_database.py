@@ -47,7 +47,6 @@ def bancoDados(self):
 
     # Cria a  query e executa o comando .exec()
     self.createTableQuery = QtSql.QSqlQuery()
-    self.createTableQuery.exec(f""" CREATE DATABASE python""")
     self.createTableQuery.exec(""" CREATE TABLE dados(id INT PRIMARY KEY AUTO_INCREMENT, titulo VARCHAR(255), link VARCHAR(255), codigo VARCHAR(255), descricao VARCHAR(255))""")
 
 
